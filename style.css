@@ -216,3 +216,37 @@ header{
 #containerprodutos{
   width: 75%;
 }
+
+/*======================PRODUTO DETALHE=======================*/
+
+#imgprodutodetalhe{
+  max-width: 74%;
+}
+
+#containerprodutodetalhe{
+  width: 60%;
+}
+
+#botao{
+  text-align: right;
+}
+
+/*=====================CONTA=========================*/
+
+#containerdoform{
+  width: 65%;  
+}
+
+#form{
+  margin: 10vh;
+}
+
+.teste{
+  margin: 5vh 0;
+  width: 100%;
+  
+}
+
+#confirmacao{
+  margin-top: 100px;
+}

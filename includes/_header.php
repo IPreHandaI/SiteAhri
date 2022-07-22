@@ -12,8 +12,10 @@
             <span></span>
 
             <ul id="menu">
+              <a href="home.php"><li>Home</li></a>
               <a href="produtos.php"><li>Produtos</li></a>
-              <a href="#"><li>Contact</li></a>
+              <a href="contato.php"><li>Contato</li></a>
+              
             </ul>
           </div>
         </nav>

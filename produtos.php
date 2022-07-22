@@ -21,7 +21,7 @@ for ($i=0; $i < 12; $i++) {
   <div class="card-body">
     <h5 class="card-title"><?php echo $produtos[$i]['Nome'];?></h5>
     <p class="card-text"><?php echo $produtos[$i]['descricao']?></p>
-    <a href="#" class="btn btn-primary">Visitar</a>
+    <a href="produto-detalhe.php?id=<?php echo $i;?>" class="btn btn-primary">Visitar</a>
   </div>
 </div>
 
