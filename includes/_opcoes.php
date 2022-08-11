@@ -1,5 +1,5 @@
 <?php 
-
+/*
     $produtos= [ 
                 0 => array('Nome' => 'Ahri', 'descricao' => 'linda', 'preco' => '10M', 'img' => 'Ahri1.jpg'),
                 1 => array('Nome' => 'Ahri', 'descricao' => 'linda', 'preco' => '10M', 'img' => 'Ahri2.jpg'),
@@ -17,22 +17,23 @@
                 13 => array('Nome' => 'Ahri', 'descricao' => 'linda', 'preco' => '10M', 'img' => 'Ahri14.jpg'),
                 14 => array('Nome' => 'Ahri', 'descricao' => 'linda', 'preco' => '10M', 'img' => 'Ahri15.jpg')
     ];
-     
+  */   
 
 
 
-/*
+
 $categoria = array(
-    0 => $skins = array('produtos' => 'skins'),
-    1 => $cromas = array('produtos' => 'Cromas'),
-    2 => $banners = array('produtos' => 'Banners'),
-    3 => $roupas = array('produtos' => 'Roupas'),
-    4 => $orelhas = array('produtos' => 'Orelhas'),
-    5 => $caldas = array('produtos' => 'Caldas'),
-    6 => $musicas = array('produtos' => 'Músicas'),
-    7 => $unhas = array('produtos' => 'Unhas')
+    $skins = array('produtos' => 'skins'),
+    $cromas = array('produtos' => 'Cromas'),
+    $banners = array('produtos' => 'Banners'),
+    $roupas = array('produtos' => 'Roupas'),
+    $orelhas = array('produtos' => 'Orelhas'),
+    $caldas = array('produtos' => 'Caldas'),
+    $musicas = array('produtos' => 'Músicas'),
+    $unhas = array('produtos' => 'Unhas')
 
-);*/
+);
+print_r(array_keys($categoria));
 
 
 

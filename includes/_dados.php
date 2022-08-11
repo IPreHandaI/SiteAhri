@@ -51,4 +51,6 @@
         ],
     ],
 ]
+
+print_r(array_keys($categorias))
 ?>
